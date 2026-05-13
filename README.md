@@ -1,72 +1,16 @@
-Patient Dashboard
-A modern and responsive Patient Dashboard web application built using React, Vite, Tailwind CSS, and Chart.js. This project provides a clean user interface for managing and visualizing patient-related information such as health statistics, reports, and dashboard analytics.
-Features
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Responsive dashboard UI
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Patient health data visualization
+## React Compiler
 
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Interactive charts and analytics
+## Expanding the ESLint configuration
 
-
-Modern design using Tailwind CSS
-
-
-Fast development with Vite
-
-
-Component-based React architecture
-
-
-Tech Stack
-
-
-React.js
-
-
-Vite
-
-
-Tailwind CSS
-
-
-Chart.js
-
-
-React ChartJS 2
-
-
-Installation
-Clone the repository and install dependencies:
-npm install
-Run the development server:
-npm run dev
-Build for production:
-npm run build
-Preview production build:
-npm run preview
-Project Purpose
-This project was created to practice frontend development concepts and build a healthcare-themed dashboard interface with modern UI technologies and data visualization tools.
-Future Improvements
-
-
-Authentication system
-
-
-Real-time patient monitoring
-
-
-Backend integration
-
-
-Appointment management
-
-
-Dark mode support
-
-
-Author
-Anjali Biradar
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
